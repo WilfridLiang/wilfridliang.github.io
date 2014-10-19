@@ -17,3 +17,5 @@ Windows下的TXT文件把所有的"\r\n"中的"\r"删除，就可以在Linux下�
 Linux的TXT文件则是在所有的"\n"之前加入"\r"。
 
 下面给出代码
+
+[Qidian](www.qidian.com)
