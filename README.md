@@ -10,7 +10,7 @@
 
 它们的区别主要是行结束标志的区别，即EOL(end of line)，Windows下TXT是用"\r\n"两个字符来标记一行的结束的，而Linux则是用"\n"一个字符，没有"\r"。至于为什么有这种区别，就要追溯到打字机的年代了，这里不详细说明。
 
-知道它们的区别之后，就可以很简单的写出转换软件了。
+知道它们的区别之后，就可很简单的写出转换软件了。
 
 Windows下的TXT文件把所有的"\r\n"中的"\r"删除，就可以在Linux下正常显示了。
 
@@ -20,8 +20,8 @@ Linux的TXT文件则是在所有的"\n"之前加入"\r"。
 
 [Qidian](http://www.qidian.com)
 
-  int main(void){
-      printf("Hello, World!\n");
+    int main(void){
+        printf("Hello, World!\n");
       
-      return 0;
-  }
+        return 0;
+    }
