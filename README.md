@@ -19,3 +19,9 @@ Linux的TXT文件则是在所有的"\n"之前加入"\r"。
 下面给出代码
 
 [Qidian](http://www.qidian.com)
+
+  int main(void){
+      printf("Hello, World!\n");
+      
+      return 0;
+  }
